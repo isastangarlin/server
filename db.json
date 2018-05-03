@@ -1,14 +1,80 @@
-{
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
-}
+{ 
+    "so" : [ 
+        { "id": 0},
+        { "id": 1}
+    ], 
+    "activity" : 
+    [ 
+        { 
+            "id": 1,
+            "code": "1398765",
+            "begin_date": "2018-03-05",
+            "external_data": {
+                "ID_REGIONAL": "9870A00-AAA",
+                "ID_PROJETO": "Projeto AAA",
+                "CD_TALHAO": "Talhao ZZZ"
+            },
+            "role": {
+                "id": 1,
+                "insumo": "calcario",
+                "name": "Preparo do solo adubação 50 cm de profundidade",
+                "short_name": "R"
+            },
+            "status": "ONGOING",
+            "activity_geometries": [
+                {
+                    "id": 2,
+                    "name": "location2",
+                    "parent": {
+                        "id": 1,
+                        "name": "projeto 123",
+                        "code": "PRO-123-JETO",
+                        "short_name": "PRO-123"
+                    }
+                }
+            ],
+            "service_order": {
+                "id": 1,
+                "code": "AA00"
+            },
+            "follow_up": { "number": 0, "date": "2018-01-01", "vehicle": { "name": "plantadeira", "code": "JF123" } , "computer": "xxx", "situation": "sssss"
+            }
+        }, 
+        
+        { 
+            "id": 2,
+            "code": "1398555",
+            "begin_date": "2018-03-05",
+            "external_data": {
+                "ID_REGIONAL": "9870A00-AAA",
+                "ID_PROJETO": "Projeto AAA",
+                "CD_TALHAO": "Talhao ZZZ"
+            },
+            "role": {
+                "id": 1,
+                "insumo": "calcario",
+                "name": "Preparo do solo adubação 30 cm de profundidade",
+                "short_name": "R"
+            },
+            "status": "DDDD",
+            "activity_geometries": [
+                {
+                    "id": 2,
+                    "name": "location2",
+                    "parent": {
+                        "id": 1,
+                        "name": "projeto 123",
+                        "code": "PRO-123-JETO",
+                        "short_name": "PRO-123"
+                    }
+                }
+            ],
+            "service_order": {
+                "id": 1,
+                "code": "AA11"
+            },
+            "follow_up": { "number": 1, "date": "2018-01-01", "vehicle": { "name": "celta", "code": "JF456" } , "computer": "xxx", "situation": "sssss"
+            }
+        }
+    ]
+} 
