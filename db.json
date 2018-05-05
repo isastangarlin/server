@@ -44,7 +44,7 @@
         { 
             "id": 2,
             "code": "1398555",
-            "begin_date": "2018-03-05",
+            "begin_date": "2018-03-04",
             "external_data": {
                 "ID_REGIONAL": "9870A00-AAA",
                 "ID_PROJETO": "H136 - Santa Clara",
@@ -118,7 +118,7 @@
         { 
             "id": 4,
             "code": "1398557",
-            "begin_date": "2018-03-05",
+            "begin_date": "2018-03-04",
             "external_data": {
                 "ID_REGIONAL": "9870A00-AAA",
                 "ID_PROJETO": "H132 - Santa Edviges",
@@ -155,7 +155,7 @@
         { 
             "id": 5,
             "code": "1398558",
-            "begin_date": "2018-03-05",
+            "begin_date": "2018-03-03",
             "external_data": {
                 "ID_REGIONAL": "9870A00-AAA",
                 "ID_PROJETO": "H138 - Santa Marta",
