@@ -51,7 +51,7 @@
             "code": "1398555",
             "begin_date": "2018-03-04",
             "external_data": {
-                "ID_REGIONAL": "9870A00-AAA",
+                "ID_REGIAO": "9870A00-AAA",
                 "ID_PROJETO": "H136 - Santa Clara",
                 "CD_TALHAO": "038"
             },
@@ -88,7 +88,7 @@
             "code": "1398556",
             "begin_date": "2018-03-05",
             "external_data": {
-                "ID_REGIONAL": "9870A00-AAA",
+                "ID_REGIAO": "9870A00-AAA",
                 "ID_PROJETO": "H133 - Santa Maria",
                 "CD_TALHAO": "038"
             },
@@ -125,7 +125,7 @@
             "code": "1398557",
             "begin_date": "2018-03-04",
             "external_data": {
-                "ID_REGIONAL": "9870A00-AAA",
+                "ID_REGIAO": "9870A00-AAA",
                 "ID_PROJETO": "H132 - Santa Edviges",
                 "CD_TALHAO": "038"
             },
@@ -162,7 +162,7 @@
             "code": "1398558",
             "begin_date": "2018-03-03",
             "external_data": {
-                "ID_REGIONAL": "9870A00-AAA",
+                "ID_REGIAO": "9870A00-AAA",
                 "ID_PROJETO": "H138 - Santa Marta",
                 "CD_TALHAO": "038"
             },
@@ -197,7 +197,7 @@
             "code": "1398558",
             "begin_date": "2018-03-03",
             "external_data": {
-                "ID_REGIONAL": "9870A00-AAA",
+                "ID_REGIAO": "9870A00-AAA",
                 "ID_PROJETO": "H138 - Santa Marta",
                 "CD_TALHAO": "038"
             },
@@ -232,7 +232,7 @@
             "code": "1398765",
             "begin_date": "2018-03-05",
             "external_data": {
-                "ID_REGIONAL": "9870A00-AAA",
+                "ID_REGIAO": "9870A00-AAA",
                 "ID_PROJETO": "H135 - Santa Rita",
                 "CD_TALHAO": "038"
             },
