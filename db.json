@@ -3,8 +3,26 @@
         { "id": "ARA-A002", "name": "ARA-A002" }
     ],
     "so" : [ 
-        { }
-        { } 
+       "activity" :
+    [ 
+       { "id": 1, "code": "1398555", "begin_date": "2018-03-04",
+            "external_data": { "ID_REGIAO": "ARA-A002", "ID_PROJETO": "H136 - Santa Clara", "CD_TALHAO": "038"},
+            "role": { "id": 1, "insumo": "Adubo", "name": "Preparo do solo adubação 30 cm de profundidade","short_name": "R" },
+            "status": "DDDD", 
+            "activity_geometries": [{ "id": 2, "name": "location2", "parent": { "id": 1, "name": "projeto 123","code": "PRO-123-JETO","short_name": "PRO-123"}}],
+            "service_order": {"id": 2,"code": "AA12"},
+            "follow_up": { "number": 1, "date": "2018-01-01", "vehicle": { "name": "Plantadeira", "code": "JF456" } , "computer": "0042F221", "situation": "Processando"}
+       },
+      
+       { "id": 2, "code": "1398555", "begin_date": "2018-03-04",
+            "external_data": { "ID_REGIAO": "ARA-A002", "ID_PROJETO": "H136 - Santa Clara", "CD_TALHAO": "038"},
+            "role": { "id": 1, "insumo": "Adubo", "name": "Preparo do solo adubação 30 cm de profundidade","short_name": "R" },
+            "status": "DDDD", 
+            "activity_geometries": [{ "id": 2, "name": "location2", "parent": { "id": 1, "name": "projeto 123","code": "PRO-123-JETO","short_name": "PRO-123"}}],
+            "service_order": {"id": 2,"code": "AA12"},
+            "follow_up": { "number": 1, "date": "2018-01-01", "vehicle": { "name": "Plantadeira", "code": "JF456" } , "computer": "0042F221", "situation": "Processando"}
+       }
+        
     ],
     "activity" :
     [ 
@@ -16,8 +34,7 @@
             "service_order": {"id": 2,"code": "AA12"},
             "follow_up": { "number": 1, "date": "2018-01-01", "vehicle": { "name": "Plantadeira", "code": "JF456" } , "computer": "0042F221", "situation": "Processando"}
        },
-        "activity" :
-     [ 
+      
        { "id": 2, "code": "1398555", "begin_date": "2018-03-04",
             "external_data": { "ID_REGIAO": "ARA-A002", "ID_PROJETO": "H136 - Santa Clara", "CD_TALHAO": "038"},
             "role": { "id": 1, "insumo": "Adubo", "name": "Preparo do solo adubação 30 cm de profundidade","short_name": "R" },
@@ -27,6 +44,6 @@
             "follow_up": { "number": 1, "date": "2018-01-01", "vehicle": { "name": "Plantadeira", "code": "JF456" } , "computer": "0042F221", "situation": "Processando"}
        }
         
-     ]  
+   
     
 } 
